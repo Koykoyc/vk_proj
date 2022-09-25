@@ -1,0 +1,901 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor()
+extern void EmbeddedAttribute__ctor_mECAB93BFAD642BBA6FC2BC4D8670501BC795044B (void);
+// 0x00000002 System.Void System.Runtime.CompilerServices.IsReadOnlyAttribute::.ctor()
+extern void IsReadOnlyAttribute__ctor_mAD348FD9E4564AC891B840B33348B98E80983264 (void);
+// 0x00000003 System.String Unity.Serialization.FormerNameAttribute::get_OldName()
+extern void FormerNameAttribute_get_OldName_m89CC0CF11B00FA04B9544C063D619C1003587013 (void);
+// 0x00000004 System.Void Unity.Serialization.FormerNameAttribute::RegisterFormerlySerializedAsTypes()
+extern void FormerNameAttribute_RegisterFormerlySerializedAsTypes_m2904A9AA40585CF7D4464F344613ABC75CEFAE3C (void);
+// 0x00000005 System.Boolean Unity.Serialization.FormerNameAttribute::TryGetCurrentTypeName(System.String,System.String&)
+extern void FormerNameAttribute_TryGetCurrentTypeName_mBA82D7DAD646BE7316A687AA6112B5149BD739B6 (void);
+// 0x00000006 System.Void Unity.Serialization.FormerNameAttribute::.cctor()
+extern void FormerNameAttribute__cctor_m91E8BAFBF697764309A0AA0F8143A0F0ACADCE7E (void);
+// 0x00000007 System.Void Unity.Serialization.FormerNameAttribute/<>c::.cctor()
+extern void U3CU3Ec__cctor_m7E477D2970DED8345289DA33FC846133648168F4 (void);
+// 0x00000008 System.Void Unity.Serialization.FormerNameAttribute/<>c::.ctor()
+extern void U3CU3Ec__ctor_m647BAF96AA2BE8DD5DB5D2AED28A9FC39D3B2603 (void);
+// 0x00000009 System.Collections.Generic.IEnumerable`1<System.Type> Unity.Serialization.FormerNameAttribute/<>c::<RegisterFormerlySerializedAsTypes>b__6_0(System.Reflection.Assembly)
+extern void U3CU3Ec_U3CRegisterFormerlySerializedAsTypesU3Eb__6_0_mE70FD33A31CBDCC4888AE5634FDA8C4137A7E974 (void);
+// 0x0000000A System.Boolean Unity.Serialization.FormerNameAttribute/<>c::<RegisterFormerlySerializedAsTypes>b__6_1(System.Type)
+extern void U3CU3Ec_U3CRegisterFormerlySerializedAsTypesU3Eb__6_1_mFE6C4EF84695725604B2B3F57D1E6BC9F91D0566 (void);
+// 0x0000000B System.Void Unity.Serialization.SerializationException::.ctor(System.String)
+extern void SerializationException__ctor_m5412DEFC5478EE7F95341F0645D28F687908DA04 (void);
+// 0x0000000C System.Type Unity.Serialization.ISerializedTypeProvider::GetSerializedType()
+// 0x0000000D System.Int32 Unity.Serialization.ISerializedTypeProvider::GetArrayLength()
+// 0x0000000E System.Object Unity.Serialization.ISerializedTypeProvider::GetDefaultObject()
+// 0x0000000F System.Void Unity.Serialization.DefaultTypeConstruction::Construct(TValue&,Unity.Serialization.ISerializedTypeProvider)
+// 0x00000010 System.Void Unity.Serialization.DefaultTypeConstruction::ConstructFromSerializedType(TValue&,System.Type,Unity.Serialization.ISerializedTypeProvider)
+// 0x00000011 System.Void Unity.Serialization.DefaultTypeConstruction::ConstructFromDeclaredType(TValue&,Unity.Serialization.ISerializedTypeProvider)
+// 0x00000012 System.String Unity.Serialization.PropertyChecks::GetReadOnlyValueTypeErrorMessage(System.Type,System.String)
+extern void PropertyChecks_GetReadOnlyValueTypeErrorMessage_m697DB10A6076626E3ADF9C1FF71BD85D00795DFE (void);
+// 0x00000013 System.String Unity.Serialization.PropertyChecks::GetReadOnlyReferenceTypeErrorMessage(System.Type,System.String)
+extern void PropertyChecks_GetReadOnlyReferenceTypeErrorMessage_mA54205C9FFC2B35E7EC9671E36563E3911FDC61F (void);
+// 0x00000014 System.String Unity.Serialization.PropertyChecks::GetReadOnlyReferenceTypeWithInvalidTypeErrorMessage(System.Type,System.String)
+extern void PropertyChecks_GetReadOnlyReferenceTypeWithInvalidTypeErrorMessage_m4DB1A791352EADF882E56F2CC381B080DAE82781 (void);
+// 0x00000015 System.Boolean Unity.Serialization.PropertyChecks::CheckReadOnlyPropertyForDeserialization(Unity.Properties.Property`2<TContainer,TValue>,TContainer&,TValue&,System.String&)
+// 0x00000016 System.Int32 Unity.Serialization.SerializedReferences::AddSerializedReference(System.Object)
+extern void SerializedReferences_AddSerializedReference_m51FDFB27BE5DE289D2E6CC57B2D91CBCDCBCF0B9 (void);
+// 0x00000017 System.Void Unity.Serialization.SerializedReferences::AddDeserializedReference(T)
+// 0x00000018 System.Object Unity.Serialization.SerializedReferences::GetDeserializedReference(System.Int32)
+extern void SerializedReferences_GetDeserializedReference_mAB1E940157DA5C4BC7C12B59477D446F3E872396 (void);
+// 0x00000019 System.Boolean Unity.Serialization.SerializedReferences::SetSerialized(System.Object)
+extern void SerializedReferences_SetSerialized_mDCD8C65DC761AEDB62200342F1C73CBCFD32A892 (void);
+// 0x0000001A System.Void Unity.Serialization.SerializedReferences::Clear()
+extern void SerializedReferences_Clear_m7CE5ED0E64FAE4237ACC56CE17B64E256EED310F (void);
+// 0x0000001B System.Void Unity.Serialization.SerializedReferences::.ctor()
+extern void SerializedReferences__ctor_mDA53914E5467F602879A518535AABA32B2E551B7 (void);
+// 0x0000001C System.String Unity.Serialization.DirectoryInfoExtensions::GetRelativePath(System.IO.DirectoryInfo)
+extern void DirectoryInfoExtensions_GetRelativePath_mDEFA897B3D39C1D3E90AD3571C81E5F67D77AE1C (void);
+// 0x0000001D System.String Unity.Serialization.FileInfoExtensions::GetRelativePath(System.IO.FileInfo)
+extern void FileInfoExtensions_GetRelativePath_m764494E308ED67DB35371419AF0714E9217A2264 (void);
+// 0x0000001E System.String Unity.Serialization.StringExtensions::ToForwardSlash(System.String)
+extern void StringExtensions_ToForwardSlash_m4DFB717FDFD969F80DEBEB0F89830E4C94E6620F (void);
+// 0x0000001F Unity.Serialization.Binary.BinaryPropertyWriter Unity.Serialization.Binary.BinarySerializationContext::GetBinaryPropertyWriter()
+extern void BinarySerializationContext_GetBinaryPropertyWriter_mADA1972379C09C0F05F9EAD3C5E51546ADCA3977 (void);
+// 0x00000020 Unity.Serialization.Binary.BinaryPropertyReader Unity.Serialization.Binary.BinarySerializationContext::GetBinaryPropertyReader()
+extern void BinarySerializationContext_GetBinaryPropertyReader_mAC413229F5C0BC6AA2779A9C9C8541AE884F10AE (void);
+// 0x00000021 Unity.Serialization.SerializedReferences Unity.Serialization.Binary.BinarySerializationContext::GetSerializedReferences()
+extern void BinarySerializationContext_GetSerializedReferences_m2C707797A11394061B44DA9AC0EFCE6D3A35EDEA (void);
+// 0x00000022 System.Void Unity.Serialization.Binary.BinarySerializationContext::ClearSerializedReferences()
+extern void BinarySerializationContext_ClearSerializedReferences_m4CCC76DCD5E6E401195062324267B1E64EB7D431 (void);
+// 0x00000023 System.Void Unity.Serialization.Binary.BinarySerializationContext::.ctor()
+extern void BinarySerializationContext__ctor_mBFBDCC3BACA08FF28F2E11CC93A8292B4B890EC0 (void);
+// 0x00000024 System.Type Unity.Serialization.Binary.BinarySerializationParameters::get_SerializedType()
+extern void BinarySerializationParameters_get_SerializedType_m321D5E570D6708B08D599A3F9A576D65FD0BC1FC (void);
+// 0x00000025 System.Void Unity.Serialization.Binary.BinarySerializationParameters::set_SerializedType(System.Type)
+extern void BinarySerializationParameters_set_SerializedType_m4F46B482A169EF167FF71C0407B67C5B0581C5E5 (void);
+// 0x00000026 System.Boolean Unity.Serialization.Binary.BinarySerializationParameters::get_DisableRootAdapters()
+extern void BinarySerializationParameters_get_DisableRootAdapters_mD06314C24BB6C05C2D827F194070431A7AB46501 (void);
+// 0x00000027 System.Collections.Generic.List`1<Unity.Serialization.Binary.Adapters.IBinaryAdapter> Unity.Serialization.Binary.BinarySerializationParameters::get_UserDefinedAdapters()
+extern void BinarySerializationParameters_get_UserDefinedAdapters_mAE240DEFA5996C143E0E60E3305916AB424D3294 (void);
+// 0x00000028 System.Void Unity.Serialization.Binary.BinarySerializationParameters::set_UserDefinedAdapters(System.Collections.Generic.List`1<Unity.Serialization.Binary.Adapters.IBinaryAdapter>)
+extern void BinarySerializationParameters_set_UserDefinedAdapters_mB1041EA3EDF25578BD18C0ACF5239C0C39942FF9 (void);
+// 0x00000029 System.Boolean Unity.Serialization.Binary.BinarySerializationParameters::get_RequiresThreadSafety()
+extern void BinarySerializationParameters_get_RequiresThreadSafety_m729D0D17EB3CD689E818A5A207842469B9BEB463 (void);
+// 0x0000002A System.Boolean Unity.Serialization.Binary.BinarySerializationParameters::get_DisableSerializedReferences()
+extern void BinarySerializationParameters_get_DisableSerializedReferences_m1794D995A4F2261E55DF17AC9FD4DA7EF64E4DF1 (void);
+// 0x0000002B Unity.Serialization.Binary.BinarySerializationContext Unity.Serialization.Binary.BinarySerializationParameters::get_Context()
+extern void BinarySerializationParameters_get_Context_mB18293A6F24990A05DCC5352FE7324C968D5F82C (void);
+// 0x0000002C System.Void Unity.Serialization.Binary.BinarySerializationParameters::set_Context(Unity.Serialization.Binary.BinarySerializationContext)
+extern void BinarySerializationParameters_set_Context_m18D0AE517E5408EEB09933022484AA8FA69E3698 (void);
+// 0x0000002D Unity.Serialization.Binary.BinarySerializationContext Unity.Serialization.Binary.BinarySerialization::GetSharedContext()
+extern void BinarySerialization_GetSharedContext_mBC3F436273250032FB293C07F6C91A8787E741DF (void);
+// 0x0000002E System.Collections.Generic.List`1<Unity.Serialization.Binary.Adapters.IBinaryAdapter> Unity.Serialization.Binary.BinarySerialization::GetGlobalAdapters()
+extern void BinarySerialization_GetGlobalAdapters_m7C431D52949F03CCA87D1465BCD8173FF53867BD (void);
+// 0x0000002F System.Void Unity.Serialization.Binary.BinarySerialization::WritePrimitiveUnsafe(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,TValue&,System.Type)
+// 0x00000030 System.Void Unity.Serialization.Binary.BinarySerialization::WritePrimitiveBoxed(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Object,System.Type)
+extern void BinarySerialization_WritePrimitiveBoxed_m27F0EAD257E6B03E3D3E852B11DF84FA38AA436E (void);
+// 0x00000031 System.Void Unity.Serialization.Binary.BinarySerialization::ReadPrimitiveUnsafe(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*,TValue&,System.Type)
+// 0x00000032 System.Void Unity.Serialization.Binary.BinarySerialization::ReadPrimitiveBoxed(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*,TValue&,System.Type)
+// 0x00000033 T Unity.Serialization.Binary.BinarySerialization::FromBinary(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*,Unity.Serialization.Binary.BinarySerializationParameters)
+// 0x00000034 System.Void Unity.Serialization.Binary.BinarySerialization::ToBinary(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,T,Unity.Serialization.Binary.BinarySerializationParameters)
+// 0x00000035 System.Void Unity.Serialization.Binary.BinarySerialization::.cctor()
+extern void BinarySerialization__cctor_m91CEF94C525D352D3E20DF0A8531CC4F9D6497DC (void);
+// 0x00000036 System.Void Unity.Serialization.Binary.BinaryPropertyReader::SetStream(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryPropertyReader_SetStream_m89F4CC9334CBC7EC7A28BC9D21B5A923B7BA7EA7 (void);
+// 0x00000037 System.Void Unity.Serialization.Binary.BinaryPropertyReader::SetSerializedType(System.Type)
+extern void BinaryPropertyReader_SetSerializedType_m4DEF8A86F09D61A1589FF5DEA79E0381BF85041D (void);
+// 0x00000038 System.Void Unity.Serialization.Binary.BinaryPropertyReader::SetDisableRootAdapters(System.Boolean)
+extern void BinaryPropertyReader_SetDisableRootAdapters_mA5AC46AE51C525FCE66FA3E70C8272769A7027D2 (void);
+// 0x00000039 System.Void Unity.Serialization.Binary.BinaryPropertyReader::SetGlobalAdapters(System.Collections.Generic.List`1<Unity.Serialization.Binary.Adapters.IBinaryAdapter>)
+extern void BinaryPropertyReader_SetGlobalAdapters_m0B58C8731B00380476EE914C5C34585EB01DAA0E (void);
+// 0x0000003A System.Void Unity.Serialization.Binary.BinaryPropertyReader::SetUserDefinedAdapters(System.Collections.Generic.List`1<Unity.Serialization.Binary.Adapters.IBinaryAdapter>)
+extern void BinaryPropertyReader_SetUserDefinedAdapters_mB8C765A532456FE8BE274282A008A65651D041D9 (void);
+// 0x0000003B System.Void Unity.Serialization.Binary.BinaryPropertyReader::SetSerializedReferences(Unity.Serialization.SerializedReferences)
+extern void BinaryPropertyReader_SetSerializedReferences_mB72E0A2D0053369960E576E9A9FD4C5BE3B5EBBF (void);
+// 0x0000003C System.Void Unity.Serialization.Binary.BinaryPropertyReader::.ctor()
+extern void BinaryPropertyReader__ctor_mAA89B988046725713680523E4B4352A39EB841FC (void);
+// 0x0000003D System.Void Unity.Serialization.Binary.BinaryPropertyReader::Unity.Properties.Internal.IPropertyBagVisitor.Visit(Unity.Properties.Internal.IPropertyBag`1<TContainer>,TContainer&)
+// 0x0000003E System.Void Unity.Serialization.Binary.BinaryPropertyReader::Unity.Properties.Internal.IListPropertyBagVisitor.Visit(Unity.Properties.Internal.IListPropertyBag`2<TList,TElement>,TList&)
+// 0x0000003F System.Void Unity.Serialization.Binary.BinaryPropertyReader::Unity.Properties.Internal.ISetPropertyBagVisitor.Visit(Unity.Properties.Internal.ISetPropertyBag`2<TSet,TValue>,TSet&)
+// 0x00000040 System.Void Unity.Serialization.Binary.BinaryPropertyReader::Unity.Properties.Internal.IDictionaryPropertyBagVisitor.Visit(Unity.Properties.Internal.IDictionaryPropertyBag`3<TDictionary,TKey,TValue>,TDictionary&)
+// 0x00000041 System.Void Unity.Serialization.Binary.BinaryPropertyReader::Unity.Properties.Internal.IPropertyVisitor.Visit(Unity.Properties.Property`2<TContainer,TValue>,TContainer&)
+// 0x00000042 TValue Unity.Serialization.Binary.BinaryPropertyReader::ReadValue()
+// 0x00000043 System.Void Unity.Serialization.Binary.BinaryPropertyReader::ReadValue(TValue&,System.Boolean)
+// 0x00000044 System.Type Unity.Serialization.Binary.BinaryPropertyReader::Unity.Serialization.ISerializedTypeProvider.GetSerializedType()
+extern void BinaryPropertyReader_Unity_Serialization_ISerializedTypeProvider_GetSerializedType_m9C24255CFB3B146F5595CFB813BAF1A13EBB3C54 (void);
+// 0x00000045 System.Int32 Unity.Serialization.Binary.BinaryPropertyReader::Unity.Serialization.ISerializedTypeProvider.GetArrayLength()
+extern void BinaryPropertyReader_Unity_Serialization_ISerializedTypeProvider_GetArrayLength_m0540240D9BA5EFBD6B81D14236D7F5557988FCC2 (void);
+// 0x00000046 System.Object Unity.Serialization.Binary.BinaryPropertyReader::Unity.Serialization.ISerializedTypeProvider.GetDefaultObject()
+extern void BinaryPropertyReader_Unity_Serialization_ISerializedTypeProvider_GetDefaultObject_mD8F3768D1D04958737B4414D3AEDBEFCF36CC3E6 (void);
+// 0x00000047 System.Void Unity.Serialization.Binary.BinaryPropertyVisitor::set_IsLocked(System.Boolean)
+extern void BinaryPropertyVisitor_set_IsLocked_m8336B30AA30FB5B6036C819ED3CDDAC0853CAF24 (void);
+// 0x00000048 Unity.Serialization.Binary.BinaryPropertyVisitor/LockScope Unity.Serialization.Binary.BinaryPropertyVisitor::Lock()
+extern void BinaryPropertyVisitor_Lock_mB2E934C9811022116122890478AEDCAE809B6291 (void);
+// 0x00000049 System.Void Unity.Serialization.Binary.BinaryPropertyVisitor::.ctor()
+extern void BinaryPropertyVisitor__ctor_m5AE5DC2ADC710AE13ED2AD9B02529698993BEF0B (void);
+// 0x0000004A System.Void Unity.Serialization.Binary.BinaryPropertyVisitor/LockScope::.ctor(Unity.Serialization.Binary.BinaryPropertyVisitor)
+extern void LockScope__ctor_m91BF1206F12D8BBFB1DF3DC11106AD45024E1D55 (void);
+// 0x0000004B System.Void Unity.Serialization.Binary.BinaryPropertyVisitor/LockScope::Dispose()
+extern void LockScope_Dispose_m5D88F632CC31A959A0D8A1BE5602A40E7A2F8095 (void);
+// 0x0000004C System.Void Unity.Serialization.Binary.BinaryPropertyWriter::SetStream(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*)
+extern void BinaryPropertyWriter_SetStream_m51FFCCCE783CBF4A9825D10FF494CB493BB61323 (void);
+// 0x0000004D System.Void Unity.Serialization.Binary.BinaryPropertyWriter::SetSerializedType(System.Type)
+extern void BinaryPropertyWriter_SetSerializedType_m4E9BD0185117ADC030ECF014D260B65BCE2A658D (void);
+// 0x0000004E System.Void Unity.Serialization.Binary.BinaryPropertyWriter::SetDisableRootAdapters(System.Boolean)
+extern void BinaryPropertyWriter_SetDisableRootAdapters_m30350548C768C5B54E9CE94805157598D80417CC (void);
+// 0x0000004F System.Void Unity.Serialization.Binary.BinaryPropertyWriter::SetGlobalAdapters(System.Collections.Generic.List`1<Unity.Serialization.Binary.Adapters.IBinaryAdapter>)
+extern void BinaryPropertyWriter_SetGlobalAdapters_m901222D702DD2312DA47A4CBCFCEA4FDD8A0F0AB (void);
+// 0x00000050 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::SetUserDefinedAdapters(System.Collections.Generic.List`1<Unity.Serialization.Binary.Adapters.IBinaryAdapter>)
+extern void BinaryPropertyWriter_SetUserDefinedAdapters_m83487692F67928FBCCE042FF975A945118E7ACAD (void);
+// 0x00000051 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::SetSerializedReferences(Unity.Serialization.SerializedReferences)
+extern void BinaryPropertyWriter_SetSerializedReferences_mC2179F726FE7EC4D777D11D5D2C12141EF0D9176 (void);
+// 0x00000052 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::.ctor()
+extern void BinaryPropertyWriter__ctor_mE4BD400969B3CE6CAF443F8E468E6E7722A7E3DF (void);
+// 0x00000053 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::Unity.Properties.Internal.IPropertyBagVisitor.Visit(Unity.Properties.Internal.IPropertyBag`1<TContainer>,TContainer&)
+// 0x00000054 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::Unity.Properties.Internal.IListPropertyBagVisitor.Visit(Unity.Properties.Internal.IListPropertyBag`2<TList,TElement>,TList&)
+// 0x00000055 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::Unity.Properties.Internal.ISetPropertyBagVisitor.Visit(Unity.Properties.Internal.ISetPropertyBag`2<TSet,TValue>,TSet&)
+// 0x00000056 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::Unity.Properties.Internal.IDictionaryPropertyBagVisitor.Visit(Unity.Properties.Internal.IDictionaryPropertyBag`3<TDictionary,TKey,TValue>,TDictionary&)
+// 0x00000057 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::Unity.Properties.Internal.IPropertyVisitor.Visit(Unity.Properties.Property`2<TContainer,TValue>,TContainer&)
+// 0x00000058 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::WriteValue(TValue,System.Boolean)
+// 0x00000059 System.Void Unity.Serialization.Binary.Adapters.IBinaryAdapter`1::Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,TValue)
+// 0x0000005A TValue Unity.Serialization.Binary.Adapters.IBinaryAdapter`1::Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+// 0x0000005B System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.SByte>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.SByte)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SByteU3E_Serialize_m33EEED235463AE197021D9E1A4C4AC266CB21029 (void);
+// 0x0000005C System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Int16>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Int16)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int16U3E_Serialize_m3FF13086977CA45992FCC49C68F8A0F74772DFA9 (void);
+// 0x0000005D System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Int32>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Int32)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int32U3E_Serialize_mDAB3BC7AFE2B1D01BBA2D4BC62EACD1F800D7E2C (void);
+// 0x0000005E System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Int64>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Int64)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int64U3E_Serialize_m0E9BE02C34DF9754D968F7C3106F478E93A24110 (void);
+// 0x0000005F System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Byte>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Byte)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_ByteU3E_Serialize_m12AACE3F7F5E4ADA49EA31CEF1F1F98F1B94BF6A (void);
+// 0x00000060 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.UInt16>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.UInt16)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt16U3E_Serialize_mF78705BA2BAF70C5A78AEA509A86DB3AD0D2ABFC (void);
+// 0x00000061 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.UInt32>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.UInt32)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt32U3E_Serialize_m494E4DC13AD2BA3764C7950F969987DB7E7B74DF (void);
+// 0x00000062 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.UInt64>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.UInt64)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt64U3E_Serialize_mC24A2F18C91EF562F1DB65041FA60E3CEE77CD8B (void);
+// 0x00000063 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Single>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Single)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SingleU3E_Serialize_m61BE383C43B925B9148C2F570985E38C0E31C0B5 (void);
+// 0x00000064 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Double>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Double)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DoubleU3E_Serialize_mEFEF9307EAED165C4400877B830162B79EAAE357 (void);
+// 0x00000065 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Boolean>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Boolean)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_BooleanU3E_Serialize_mD2F7376584B252CF5432635CF6787F815FA6C296 (void);
+// 0x00000066 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Char>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Char)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_CharU3E_Serialize_mA0D4F0670632D2667219236D26DB1BE20272435C (void);
+// 0x00000067 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.String>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.String)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_StringU3E_Serialize_m75E9841F21A746232C3FA85FBA6584FD9D1E9102 (void);
+// 0x00000068 System.SByte Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.SByte>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SByteU3E_Deserialize_m85DDC35A3DA9399363A02678B035731C525E3CAB (void);
+// 0x00000069 System.Int16 Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Int16>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int16U3E_Deserialize_mFBAD0BFE6AD59A426E6BA73E163C10C040295940 (void);
+// 0x0000006A System.Int32 Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Int32>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int32U3E_Deserialize_m37E8F76D3363447CCDEF7336BDBA070B075DB710 (void);
+// 0x0000006B System.Int64 Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Int64>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int64U3E_Deserialize_m8530CDC51661A174BB5CB2AEDE3824472E1F2D48 (void);
+// 0x0000006C System.Byte Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Byte>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_ByteU3E_Deserialize_m4BB84296FF7D5C53B0BB6FD53309D52FE10CF472 (void);
+// 0x0000006D System.UInt16 Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.UInt16>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt16U3E_Deserialize_m8AA4BB35DBA420632634DB6FFAA1CF13F439AB4C (void);
+// 0x0000006E System.UInt32 Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.UInt32>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt32U3E_Deserialize_mFD7A6474B9D23EDBBBD6B2EE11AA7BAE22B5E976 (void);
+// 0x0000006F System.UInt64 Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.UInt64>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt64U3E_Deserialize_m5413EF49BDC24124DC5C2B9515736200754B4542 (void);
+// 0x00000070 System.Single Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Single>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SingleU3E_Deserialize_m96888A6C0D172E130A8ADA410D3BD6AE5B8B6DC1 (void);
+// 0x00000071 System.Double Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Double>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DoubleU3E_Deserialize_m23EAE2F4E80645FC416184955F38035789A22A13 (void);
+// 0x00000072 System.Boolean Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Boolean>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_BooleanU3E_Deserialize_mDCE48263BD94672E6E8C014A192B067257CAF053 (void);
+// 0x00000073 System.Char Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Char>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_CharU3E_Deserialize_m079AC7A7AD01137153A9C2146118607ADE40AF48 (void);
+// 0x00000074 System.String Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.String>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_StringU3E_Deserialize_m71DD7E24DDA6C8D057972A0792F815216024FC01 (void);
+// 0x00000075 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Guid>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Guid)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_GuidU3E_Serialize_mAD720BFB8924911E94D1CB7BABCB5B0234AAD57E (void);
+// 0x00000076 System.Guid Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Guid>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_GuidU3E_Deserialize_mFECBAA14784D866A25324205FAAE15B4568C0B8B (void);
+// 0x00000077 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.DateTime>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.DateTime)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DateTimeU3E_Serialize_mDC91D9CA967DF602212FED3A5E60E393787AB48C (void);
+// 0x00000078 System.DateTime Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.DateTime>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DateTimeU3E_Deserialize_mB62B47749E16EEE8B9142F5480A8128F8F5A1D50 (void);
+// 0x00000079 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.TimeSpan>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.TimeSpan)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_TimeSpanU3E_Serialize_mB817020C82B91A010758FC803C37DA975B3C16AC (void);
+// 0x0000007A System.TimeSpan Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.TimeSpan>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_TimeSpanU3E_Deserialize_mE7233AB21950E8B54B0038D5DE142E09D9D3484F (void);
+// 0x0000007B System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Version>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Version)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_VersionU3E_Serialize_mA1634BC3C43B1C3C6F788980E8C4A2A445F793EC (void);
+// 0x0000007C System.Version Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Version>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_VersionU3E_Deserialize_m03454FCF5BF949763681B757CD2E2ED90DC9A1C6 (void);
+// 0x0000007D System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.IO.DirectoryInfo>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.IO.DirectoryInfo)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_DirectoryInfoU3E_Serialize_m05B88C752155CAE731195507696F8B0B220DFBDD (void);
+// 0x0000007E System.IO.DirectoryInfo Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.IO.DirectoryInfo>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_DirectoryInfoU3E_Deserialize_mD4EB9094B0E99108D8AEA3238AB1EA5E3BEC2CE2 (void);
+// 0x0000007F System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.IO.FileInfo>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.IO.FileInfo)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_FileInfoU3E_Serialize_m3A1F5C11B0A43C43231E6CBF0D2FFAD741DD9DD2 (void);
+// 0x00000080 System.IO.FileInfo Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.IO.FileInfo>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_FileInfoU3E_Deserialize_mD059B1EA8BD006A6BD0C674B007F3BBD0D4A5C5F (void);
+// 0x00000081 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.Contravariant.IBinaryAdapter<UnityEngine.Object>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,UnityEngine.Object)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_Contravariant_IBinaryAdapterU3CUnityEngine_ObjectU3E_Serialize_m10BDDB9276D28D53141B0E3B95997412108DB11D (void);
+// 0x00000082 System.Object Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.Contravariant.IBinaryAdapter<UnityEngine.Object>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_Contravariant_IBinaryAdapterU3CUnityEngine_ObjectU3E_Deserialize_m5ADC4AE8A2CA561E8DC8AC00ACC114F2955AB0E5 (void);
+// 0x00000083 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::.ctor()
+extern void BinaryAdapter__ctor_m0F7C7DF7DE5593E85375826603BFD9DA514569F7 (void);
+// 0x00000084 System.Boolean Unity.Serialization.Binary.Adapters.BinaryAdapterCollection::TrySerialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,TValue&)
+// 0x00000085 System.Boolean Unity.Serialization.Binary.Adapters.BinaryAdapterCollection::TrySerialize(Unity.Serialization.Binary.Adapters.IBinaryAdapter,Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,TValue)
+// 0x00000086 System.Boolean Unity.Serialization.Binary.Adapters.BinaryAdapterCollection::TryDeserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*,TValue&)
+// 0x00000087 System.Boolean Unity.Serialization.Binary.Adapters.BinaryAdapterCollection::TryDeserialize(Unity.Serialization.Binary.Adapters.IBinaryAdapter,Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*,TValue&)
+// 0x00000088 System.Void Unity.Serialization.Binary.Adapters.Contravariant.IBinaryAdapter`1::Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,TValue)
+// 0x00000089 System.Object Unity.Serialization.Binary.Adapters.Contravariant.IBinaryAdapter`1::Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+static Il2CppMethodPointer s_methodPointers[137] = 
+{
+	EmbeddedAttribute__ctor_mECAB93BFAD642BBA6FC2BC4D8670501BC795044B,
+	IsReadOnlyAttribute__ctor_mAD348FD9E4564AC891B840B33348B98E80983264,
+	FormerNameAttribute_get_OldName_m89CC0CF11B00FA04B9544C063D619C1003587013,
+	FormerNameAttribute_RegisterFormerlySerializedAsTypes_m2904A9AA40585CF7D4464F344613ABC75CEFAE3C,
+	FormerNameAttribute_TryGetCurrentTypeName_mBA82D7DAD646BE7316A687AA6112B5149BD739B6,
+	FormerNameAttribute__cctor_m91E8BAFBF697764309A0AA0F8143A0F0ACADCE7E,
+	U3CU3Ec__cctor_m7E477D2970DED8345289DA33FC846133648168F4,
+	U3CU3Ec__ctor_m647BAF96AA2BE8DD5DB5D2AED28A9FC39D3B2603,
+	U3CU3Ec_U3CRegisterFormerlySerializedAsTypesU3Eb__6_0_mE70FD33A31CBDCC4888AE5634FDA8C4137A7E974,
+	U3CU3Ec_U3CRegisterFormerlySerializedAsTypesU3Eb__6_1_mFE6C4EF84695725604B2B3F57D1E6BC9F91D0566,
+	SerializationException__ctor_m5412DEFC5478EE7F95341F0645D28F687908DA04,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	PropertyChecks_GetReadOnlyValueTypeErrorMessage_m697DB10A6076626E3ADF9C1FF71BD85D00795DFE,
+	PropertyChecks_GetReadOnlyReferenceTypeErrorMessage_mA54205C9FFC2B35E7EC9671E36563E3911FDC61F,
+	PropertyChecks_GetReadOnlyReferenceTypeWithInvalidTypeErrorMessage_m4DB1A791352EADF882E56F2CC381B080DAE82781,
+	NULL,
+	SerializedReferences_AddSerializedReference_m51FDFB27BE5DE289D2E6CC57B2D91CBCDCBCF0B9,
+	NULL,
+	SerializedReferences_GetDeserializedReference_mAB1E940157DA5C4BC7C12B59477D446F3E872396,
+	SerializedReferences_SetSerialized_mDCD8C65DC761AEDB62200342F1C73CBCFD32A892,
+	SerializedReferences_Clear_m7CE5ED0E64FAE4237ACC56CE17B64E256EED310F,
+	SerializedReferences__ctor_mDA53914E5467F602879A518535AABA32B2E551B7,
+	DirectoryInfoExtensions_GetRelativePath_mDEFA897B3D39C1D3E90AD3571C81E5F67D77AE1C,
+	FileInfoExtensions_GetRelativePath_m764494E308ED67DB35371419AF0714E9217A2264,
+	StringExtensions_ToForwardSlash_m4DFB717FDFD969F80DEBEB0F89830E4C94E6620F,
+	BinarySerializationContext_GetBinaryPropertyWriter_mADA1972379C09C0F05F9EAD3C5E51546ADCA3977,
+	BinarySerializationContext_GetBinaryPropertyReader_mAC413229F5C0BC6AA2779A9C9C8541AE884F10AE,
+	BinarySerializationContext_GetSerializedReferences_m2C707797A11394061B44DA9AC0EFCE6D3A35EDEA,
+	BinarySerializationContext_ClearSerializedReferences_m4CCC76DCD5E6E401195062324267B1E64EB7D431,
+	BinarySerializationContext__ctor_mBFBDCC3BACA08FF28F2E11CC93A8292B4B890EC0,
+	BinarySerializationParameters_get_SerializedType_m321D5E570D6708B08D599A3F9A576D65FD0BC1FC,
+	BinarySerializationParameters_set_SerializedType_m4F46B482A169EF167FF71C0407B67C5B0581C5E5,
+	BinarySerializationParameters_get_DisableRootAdapters_mD06314C24BB6C05C2D827F194070431A7AB46501,
+	BinarySerializationParameters_get_UserDefinedAdapters_mAE240DEFA5996C143E0E60E3305916AB424D3294,
+	BinarySerializationParameters_set_UserDefinedAdapters_mB1041EA3EDF25578BD18C0ACF5239C0C39942FF9,
+	BinarySerializationParameters_get_RequiresThreadSafety_m729D0D17EB3CD689E818A5A207842469B9BEB463,
+	BinarySerializationParameters_get_DisableSerializedReferences_m1794D995A4F2261E55DF17AC9FD4DA7EF64E4DF1,
+	BinarySerializationParameters_get_Context_mB18293A6F24990A05DCC5352FE7324C968D5F82C,
+	BinarySerializationParameters_set_Context_m18D0AE517E5408EEB09933022484AA8FA69E3698,
+	BinarySerialization_GetSharedContext_mBC3F436273250032FB293C07F6C91A8787E741DF,
+	BinarySerialization_GetGlobalAdapters_m7C431D52949F03CCA87D1465BCD8173FF53867BD,
+	NULL,
+	BinarySerialization_WritePrimitiveBoxed_m27F0EAD257E6B03E3D3E852B11DF84FA38AA436E,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	BinarySerialization__cctor_m91CEF94C525D352D3E20DF0A8531CC4F9D6497DC,
+	BinaryPropertyReader_SetStream_m89F4CC9334CBC7EC7A28BC9D21B5A923B7BA7EA7,
+	BinaryPropertyReader_SetSerializedType_m4DEF8A86F09D61A1589FF5DEA79E0381BF85041D,
+	BinaryPropertyReader_SetDisableRootAdapters_mA5AC46AE51C525FCE66FA3E70C8272769A7027D2,
+	BinaryPropertyReader_SetGlobalAdapters_m0B58C8731B00380476EE914C5C34585EB01DAA0E,
+	BinaryPropertyReader_SetUserDefinedAdapters_mB8C765A532456FE8BE274282A008A65651D041D9,
+	BinaryPropertyReader_SetSerializedReferences_mB72E0A2D0053369960E576E9A9FD4C5BE3B5EBBF,
+	BinaryPropertyReader__ctor_mAA89B988046725713680523E4B4352A39EB841FC,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	BinaryPropertyReader_Unity_Serialization_ISerializedTypeProvider_GetSerializedType_m9C24255CFB3B146F5595CFB813BAF1A13EBB3C54,
+	BinaryPropertyReader_Unity_Serialization_ISerializedTypeProvider_GetArrayLength_m0540240D9BA5EFBD6B81D14236D7F5557988FCC2,
+	BinaryPropertyReader_Unity_Serialization_ISerializedTypeProvider_GetDefaultObject_mD8F3768D1D04958737B4414D3AEDBEFCF36CC3E6,
+	BinaryPropertyVisitor_set_IsLocked_m8336B30AA30FB5B6036C819ED3CDDAC0853CAF24,
+	BinaryPropertyVisitor_Lock_mB2E934C9811022116122890478AEDCAE809B6291,
+	BinaryPropertyVisitor__ctor_m5AE5DC2ADC710AE13ED2AD9B02529698993BEF0B,
+	LockScope__ctor_m91BF1206F12D8BBFB1DF3DC11106AD45024E1D55,
+	LockScope_Dispose_m5D88F632CC31A959A0D8A1BE5602A40E7A2F8095,
+	BinaryPropertyWriter_SetStream_m51FFCCCE783CBF4A9825D10FF494CB493BB61323,
+	BinaryPropertyWriter_SetSerializedType_m4E9BD0185117ADC030ECF014D260B65BCE2A658D,
+	BinaryPropertyWriter_SetDisableRootAdapters_m30350548C768C5B54E9CE94805157598D80417CC,
+	BinaryPropertyWriter_SetGlobalAdapters_m901222D702DD2312DA47A4CBCFCEA4FDD8A0F0AB,
+	BinaryPropertyWriter_SetUserDefinedAdapters_m83487692F67928FBCCE042FF975A945118E7ACAD,
+	BinaryPropertyWriter_SetSerializedReferences_mC2179F726FE7EC4D777D11D5D2C12141EF0D9176,
+	BinaryPropertyWriter__ctor_mE4BD400969B3CE6CAF443F8E468E6E7722A7E3DF,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SByteU3E_Serialize_m33EEED235463AE197021D9E1A4C4AC266CB21029,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int16U3E_Serialize_m3FF13086977CA45992FCC49C68F8A0F74772DFA9,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int32U3E_Serialize_mDAB3BC7AFE2B1D01BBA2D4BC62EACD1F800D7E2C,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int64U3E_Serialize_m0E9BE02C34DF9754D968F7C3106F478E93A24110,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_ByteU3E_Serialize_m12AACE3F7F5E4ADA49EA31CEF1F1F98F1B94BF6A,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt16U3E_Serialize_mF78705BA2BAF70C5A78AEA509A86DB3AD0D2ABFC,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt32U3E_Serialize_m494E4DC13AD2BA3764C7950F969987DB7E7B74DF,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt64U3E_Serialize_mC24A2F18C91EF562F1DB65041FA60E3CEE77CD8B,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SingleU3E_Serialize_m61BE383C43B925B9148C2F570985E38C0E31C0B5,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DoubleU3E_Serialize_mEFEF9307EAED165C4400877B830162B79EAAE357,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_BooleanU3E_Serialize_mD2F7376584B252CF5432635CF6787F815FA6C296,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_CharU3E_Serialize_mA0D4F0670632D2667219236D26DB1BE20272435C,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_StringU3E_Serialize_m75E9841F21A746232C3FA85FBA6584FD9D1E9102,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SByteU3E_Deserialize_m85DDC35A3DA9399363A02678B035731C525E3CAB,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int16U3E_Deserialize_mFBAD0BFE6AD59A426E6BA73E163C10C040295940,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int32U3E_Deserialize_m37E8F76D3363447CCDEF7336BDBA070B075DB710,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int64U3E_Deserialize_m8530CDC51661A174BB5CB2AEDE3824472E1F2D48,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_ByteU3E_Deserialize_m4BB84296FF7D5C53B0BB6FD53309D52FE10CF472,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt16U3E_Deserialize_m8AA4BB35DBA420632634DB6FFAA1CF13F439AB4C,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt32U3E_Deserialize_mFD7A6474B9D23EDBBBD6B2EE11AA7BAE22B5E976,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt64U3E_Deserialize_m5413EF49BDC24124DC5C2B9515736200754B4542,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SingleU3E_Deserialize_m96888A6C0D172E130A8ADA410D3BD6AE5B8B6DC1,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DoubleU3E_Deserialize_m23EAE2F4E80645FC416184955F38035789A22A13,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_BooleanU3E_Deserialize_mDCE48263BD94672E6E8C014A192B067257CAF053,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_CharU3E_Deserialize_m079AC7A7AD01137153A9C2146118607ADE40AF48,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_StringU3E_Deserialize_m71DD7E24DDA6C8D057972A0792F815216024FC01,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_GuidU3E_Serialize_mAD720BFB8924911E94D1CB7BABCB5B0234AAD57E,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_GuidU3E_Deserialize_mFECBAA14784D866A25324205FAAE15B4568C0B8B,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DateTimeU3E_Serialize_mDC91D9CA967DF602212FED3A5E60E393787AB48C,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DateTimeU3E_Deserialize_mB62B47749E16EEE8B9142F5480A8128F8F5A1D50,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_TimeSpanU3E_Serialize_mB817020C82B91A010758FC803C37DA975B3C16AC,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_TimeSpanU3E_Deserialize_mE7233AB21950E8B54B0038D5DE142E09D9D3484F,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_VersionU3E_Serialize_mA1634BC3C43B1C3C6F788980E8C4A2A445F793EC,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_VersionU3E_Deserialize_m03454FCF5BF949763681B757CD2E2ED90DC9A1C6,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_DirectoryInfoU3E_Serialize_m05B88C752155CAE731195507696F8B0B220DFBDD,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_DirectoryInfoU3E_Deserialize_mD4EB9094B0E99108D8AEA3238AB1EA5E3BEC2CE2,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_FileInfoU3E_Serialize_m3A1F5C11B0A43C43231E6CBF0D2FFAD741DD9DD2,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_FileInfoU3E_Deserialize_mD059B1EA8BD006A6BD0C674B007F3BBD0D4A5C5F,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_Contravariant_IBinaryAdapterU3CUnityEngine_ObjectU3E_Serialize_m10BDDB9276D28D53141B0E3B95997412108DB11D,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_Contravariant_IBinaryAdapterU3CUnityEngine_ObjectU3E_Deserialize_m5ADC4AE8A2CA561E8DC8AC00ACC114F2955AB0E5,
+	BinaryAdapter__ctor_m0F7C7DF7DE5593E85375826603BFD9DA514569F7,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
+extern void BinarySerializationParameters_get_SerializedType_m321D5E570D6708B08D599A3F9A576D65FD0BC1FC_AdjustorThunk (void);
+extern void BinarySerializationParameters_set_SerializedType_m4F46B482A169EF167FF71C0407B67C5B0581C5E5_AdjustorThunk (void);
+extern void BinarySerializationParameters_get_DisableRootAdapters_mD06314C24BB6C05C2D827F194070431A7AB46501_AdjustorThunk (void);
+extern void BinarySerializationParameters_get_UserDefinedAdapters_mAE240DEFA5996C143E0E60E3305916AB424D3294_AdjustorThunk (void);
+extern void BinarySerializationParameters_set_UserDefinedAdapters_mB1041EA3EDF25578BD18C0ACF5239C0C39942FF9_AdjustorThunk (void);
+extern void BinarySerializationParameters_get_RequiresThreadSafety_m729D0D17EB3CD689E818A5A207842469B9BEB463_AdjustorThunk (void);
+extern void BinarySerializationParameters_get_DisableSerializedReferences_m1794D995A4F2261E55DF17AC9FD4DA7EF64E4DF1_AdjustorThunk (void);
+extern void BinarySerializationParameters_get_Context_mB18293A6F24990A05DCC5352FE7324C968D5F82C_AdjustorThunk (void);
+extern void BinarySerializationParameters_set_Context_m18D0AE517E5408EEB09933022484AA8FA69E3698_AdjustorThunk (void);
+extern void LockScope__ctor_m91BF1206F12D8BBFB1DF3DC11106AD45024E1D55_AdjustorThunk (void);
+extern void LockScope_Dispose_m5D88F632CC31A959A0D8A1BE5602A40E7A2F8095_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[11] = 
+{
+	{ 0x06000024, BinarySerializationParameters_get_SerializedType_m321D5E570D6708B08D599A3F9A576D65FD0BC1FC_AdjustorThunk },
+	{ 0x06000025, BinarySerializationParameters_set_SerializedType_m4F46B482A169EF167FF71C0407B67C5B0581C5E5_AdjustorThunk },
+	{ 0x06000026, BinarySerializationParameters_get_DisableRootAdapters_mD06314C24BB6C05C2D827F194070431A7AB46501_AdjustorThunk },
+	{ 0x06000027, BinarySerializationParameters_get_UserDefinedAdapters_mAE240DEFA5996C143E0E60E3305916AB424D3294_AdjustorThunk },
+	{ 0x06000028, BinarySerializationParameters_set_UserDefinedAdapters_mB1041EA3EDF25578BD18C0ACF5239C0C39942FF9_AdjustorThunk },
+	{ 0x06000029, BinarySerializationParameters_get_RequiresThreadSafety_m729D0D17EB3CD689E818A5A207842469B9BEB463_AdjustorThunk },
+	{ 0x0600002A, BinarySerializationParameters_get_DisableSerializedReferences_m1794D995A4F2261E55DF17AC9FD4DA7EF64E4DF1_AdjustorThunk },
+	{ 0x0600002B, BinarySerializationParameters_get_Context_mB18293A6F24990A05DCC5352FE7324C968D5F82C_AdjustorThunk },
+	{ 0x0600002C, BinarySerializationParameters_set_Context_m18D0AE517E5408EEB09933022484AA8FA69E3698_AdjustorThunk },
+	{ 0x0600004A, LockScope__ctor_m91BF1206F12D8BBFB1DF3DC11106AD45024E1D55_AdjustorThunk },
+	{ 0x0600004B, LockScope_Dispose_m5D88F632CC31A959A0D8A1BE5602A40E7A2F8095_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[137] = 
+{
+	5142,
+	5142,
+	5022,
+	8091,
+	7117,
+	8091,
+	8091,
+	5142,
+	3083,
+	3547,
+	4126,
+	5022,
+	4998,
+	5022,
+	-1,
+	-1,
+	-1,
+	6990,
+	6990,
+	6990,
+	-1,
+	2833,
+	-1,
+	3079,
+	3547,
+	5142,
+	5142,
+	7797,
+	7797,
+	7797,
+	5022,
+	5022,
+	5022,
+	5142,
+	5142,
+	5022,
+	4126,
+	5078,
+	5022,
+	4126,
+	5078,
+	5078,
+	5022,
+	4126,
+	8072,
+	8072,
+	-1,
+	6668,
+	-1,
+	-1,
+	-1,
+	-1,
+	8091,
+	4018,
+	4126,
+	4180,
+	4126,
+	4126,
+	4126,
+	5142,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	5022,
+	4998,
+	5022,
+	4180,
+	5157,
+	5142,
+	4126,
+	5142,
+	4018,
+	4126,
+	4180,
+	4126,
+	4126,
+	4126,
+	5142,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	1620,
+	1615,
+	1616,
+	1617,
+	1620,
+	1615,
+	1616,
+	1617,
+	1623,
+	1609,
+	1620,
+	1615,
+	1619,
+	3423,
+	2584,
+	2739,
+	3006,
+	3423,
+	2584,
+	2739,
+	3006,
+	3770,
+	2520,
+	3423,
+	2584,
+	3065,
+	1613,
+	2571,
+	1608,
+	2499,
+	1624,
+	3818,
+	1619,
+	3065,
+	1619,
+	3065,
+	1619,
+	3065,
+	1619,
+	3065,
+	5142,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[27] = 
+{
+	{ 0x0600000F, { 0, 5 } },
+	{ 0x06000010, { 5, 1 } },
+	{ 0x06000011, { 6, 3 } },
+	{ 0x06000015, { 9, 6 } },
+	{ 0x06000017, { 15, 2 } },
+	{ 0x0600002F, { 17, 13 } },
+	{ 0x06000031, { 30, 13 } },
+	{ 0x06000032, { 43, 1 } },
+	{ 0x06000033, { 44, 2 } },
+	{ 0x06000034, { 46, 2 } },
+	{ 0x0600003D, { 48, 10 } },
+	{ 0x0600003E, { 58, 9 } },
+	{ 0x0600003F, { 67, 7 } },
+	{ 0x06000040, { 74, 8 } },
+	{ 0x06000041, { 82, 5 } },
+	{ 0x06000042, { 87, 1 } },
+	{ 0x06000043, { 88, 8 } },
+	{ 0x06000053, { 96, 9 } },
+	{ 0x06000054, { 105, 6 } },
+	{ 0x06000055, { 111, 7 } },
+	{ 0x06000056, { 118, 10 } },
+	{ 0x06000057, { 128, 2 } },
+	{ 0x06000058, { 130, 6 } },
+	{ 0x06000084, { 136, 1 } },
+	{ 0x06000085, { 137, 2 } },
+	{ 0x06000086, { 139, 1 } },
+	{ 0x06000087, { 140, 3 } },
+};
+extern const uint32_t g_rgctx_RuntimeTypeInfoCache_1_t04149F5CD6C838AA812433079E325743124F9B77;
+extern const uint32_t g_rgctx_TValue_t42154C4DC2889B73DB0FC1FA7FD07EE61545E913;
+extern const uint32_t g_rgctx_DefaultTypeConstruction_ConstructFromSerializedType_TisTValue_t42154C4DC2889B73DB0FC1FA7FD07EE61545E913_m4E8BAE909E3DAD5581C1E30110CBDC618B30A8A3;
+extern const uint32_t g_rgctx_TValue_t42154C4DC2889B73DB0FC1FA7FD07EE61545E913;
+extern const uint32_t g_rgctx_DefaultTypeConstruction_ConstructFromDeclaredType_TisTValue_t42154C4DC2889B73DB0FC1FA7FD07EE61545E913_m56DE41A81A007BDA523BA1D5DC9B73A319ABB02B;
+extern const uint32_t g_rgctx_TValue_t87236021E0154C8B56FB917EA6A2F75CB491D601;
+extern const uint32_t g_rgctx_TValue_tE1DAA95855548175628663C45DBA03C6FCB98ADF;
+extern const uint32_t g_rgctx_TValue_tE1DAA95855548175628663C45DBA03C6FCB98ADF;
+extern const uint32_t g_rgctx_Activator_CreateInstance_TisTValue_tE1DAA95855548175628663C45DBA03C6FCB98ADF_m81A1D546DC46EA3A5827D5595567FB35403AF225;
+extern const uint32_t g_rgctx_Property_2_get_IsReadOnly_m435D4163605FCD899E72C2013BFF0DE158015A87;
+extern const uint32_t g_rgctx_TValue_tCFEDA1B008381986F8164EC5DB6ADEBC93730113;
+extern const uint32_t g_rgctx_TContainer_tB0BAF36F38D6DD634CCAE8BEFFDE13FF81AE73F8;
+extern const uint32_t g_rgctx_Property_2_get_Name_m514B0EA491958D5B6F37C55A70261B50A6FFAAEB;
+extern const uint32_t g_rgctx_Property_2_GetValue_m61B32D1CE7A6CD47E748B9BDDE99D9AB12CA57C8;
+extern const uint32_t g_rgctx_TValue_tCFEDA1B008381986F8164EC5DB6ADEBC93730113;
+extern const uint32_t g_rgctx_RuntimeTypeInfoCache_1_t024DB385E32A3D4B652259AFFA6ACFA41C8A0C7F;
+extern const uint32_t g_rgctx_T_t8ACC46881AC543FA00C94368DA52C29AE8D030AC;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_mADE79B616E43E5F89CB23D4D0001BDA5079D0A4F;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisInt16_tD0F031114106263BB459DA1F099FF9F42691295A_m257D591518302525FF27940203B56123E61F1D42;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_mDAFC76E68E3B27B6CE0D03E7449E074789447AC9;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisInt64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_m9D0E75735AE24E170942495CF199C41B59057593;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisByte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_m47D7A18ACFBC5C4682E67295DF440BCE15A680D4;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisUInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_m0D99ED371C91774BE6A34DB213E55A38A104002A;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisUInt32_tE60352A06233E4E69DD198BCC67142159F686B15_m78C511488F3FB8D6CF1E7893DA5AEAF1B904A325;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisUInt64_tEC57511B3E3CA2DBA1BEBD434C6983E31C943281_m5D3F79A3A9E68D5D0C08276C71BE5C985392CBE7;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_mA13F0429CD2A600E1C49AD458C3E599331B62112;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisDouble_t42821932CB52DE2057E685D0E1AF3DE5033D2181_m2957F3C0F5D79123439E7228F1A0685BC125A297;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_mC42FACEC3F137E718CC20DFD6D3AC2F3C783F0FF;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisChar_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_m3C74BE884611C28FE4E021CC6E309B0940D5837E;
+extern const uint32_t g_rgctx_TValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_mC88A417C286F7DB35D4A2930887C6D9F35A1CC26;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisInt16_tD0F031114106263BB459DA1F099FF9F42691295A_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_m814EC9F1D06EB3A127024DCA66B0A22687207137;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_m6AB96C83BD5AE520E69F85184AFDA2B9AB4E8208;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisInt64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_mAAE54C975BC99E17215316C10278E818BB584011;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisByte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_m42B697C5E47D7CD4CE91547F5FE2771AB6B08C25;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisUInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_m515D4A4F08CCC209EFE504596013F58FA9CB500C;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisUInt32_tE60352A06233E4E69DD198BCC67142159F686B15_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_mCC4DEA837150F8F3606449B9E52E6AB6FB6686E0;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisUInt64_tEC57511B3E3CA2DBA1BEBD434C6983E31C943281_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_mB37ED35ED7D59B6125B8E48F9787F2C0B9B89E0A;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_m77FF7562C727CAD5C58151C5A9C629933616F851;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisDouble_t42821932CB52DE2057E685D0E1AF3DE5033D2181_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_m7AB50FD29A77AE08FE0FB29E79CCDE053B0435E0;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_mFC06E2DFD7F7798D96F1B3A6E8C254F2AABB5F6C;
+extern const uint32_t g_rgctx_UnsafeUtility_As_TisChar_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_m34A4AECE61C401D422E1706B3E6271161D932BA1;
+extern const uint32_t g_rgctx_TValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503;
+extern const uint32_t g_rgctx_TValue_tB941FF21D13BF73635F94A0064348158F4A08137;
+extern const uint32_t g_rgctx_PropertyWrapper_1__ctor_mC4A1056BA3F0243C2CB0AAE16D16DA005F1E296B;
+extern const uint32_t g_rgctx_PropertyContainer_Visit_TisPropertyWrapper_1_tBE8F727074BF5A9720C7AD8B7B06DBAD6F0C17DB_m2A52F26C4970D3C44B0EBC6C6E80C9F658974031;
+extern const uint32_t g_rgctx_PropertyWrapper_1__ctor_m5A810CCA1ED8C8EFA9F4B227DA818DA406D5DD1F;
+extern const uint32_t g_rgctx_PropertyContainer_Visit_TisPropertyWrapper_1_t3F373259F4BB172DBE9C266D5EE4DCF5D776C251_m6B3F747B6395715DBB4A079EF018FEE670AFD2B5;
+extern const uint32_t g_rgctx_SerializedReferences_AddDeserializedReference_TisTContainer_tBF8BB107813A7A865DDED9F5C7A741F63EEAE66B_m47818D832A58A1809620E21726EFB3E8AB9E2317;
+extern const uint32_t g_rgctx_IPropertyList_1_tA3E6CD4B78C79CE0B16952259A1D857B547FF215;
+extern const uint32_t g_rgctx_List_1_GetEnumerator_m115EDD3291599AE5234DC423E8C287AE6D55C296;
+extern const uint32_t g_rgctx_Enumerator_get_Current_m4E6A050D7844127D7B09BD671D6150517C9204B1;
+extern const uint32_t g_rgctx_IPropertyAccept_1_t2BD6B36DEC2A83E07DD630C18C52230F76421300;
+extern const uint32_t g_rgctx_Enumerator_MoveNext_mAFF274F9EF5B29855310860F5624CAC46CE5E76B;
+extern const uint32_t g_rgctx_Enumerator_tDAB0A82514D5C6170F38E0C26E568AD1EBD113EC;
+extern const uint32_t g_rgctx_IPropertyEnumerable_1_t2A88605353699CCDADEA98AE3D1E25497C74ACBF;
+extern const uint32_t g_rgctx_IEnumerable_1_t15D8100C1CE06A7FDF02D4B3BF7EF4558AE62566;
+extern const uint32_t g_rgctx_IEnumerator_1_tB2D8532A154D49204A5D99A2D2131E188646273C;
+extern const uint32_t g_rgctx_SerializedReferences_AddDeserializedReference_TisTList_t1FF5E12D5BB591E77F32DA99392E3390E6DAD028_m0B79259C4A11B17A9EEFBDD9DD31F96EFFAF4C92;
+extern const uint32_t g_rgctx_TList_t1FF5E12D5BB591E77F32DA99392E3390E6DAD028;
+extern const uint32_t g_rgctx_BinaryPropertyReader_ReadValue_TisTElement_t02D566685C3D2F06BECE032E755BAD84257BF23F_mE35537564761E296CE83D633EBF65D0AAC73D9E9;
+extern const uint32_t g_rgctx_TList_t1FF5E12D5BB591E77F32DA99392E3390E6DAD028;
+extern const uint32_t g_rgctx_IList_1_tA505FF530A8B80AC67C4468132CDA995D913DE5C;
+extern const uint32_t g_rgctx_IList_1_set_Item_mFE10B864F812FC5D0F2B66AB06721DC68E04D413;
+extern const uint32_t g_rgctx_ICollection_1_t0BE2FE4BB45BB3B6AA97AACA04C1A159DB06B204;
+extern const uint32_t g_rgctx_ICollection_1_Clear_mACE4F104D7AA237B3B61FBB7E94597CFAE6A1A67;
+extern const uint32_t g_rgctx_ICollection_1_Add_m8FFCF6005CF0695A9AEE2A2BB56FDB03010EE2B7;
+extern const uint32_t g_rgctx_SerializedReferences_AddDeserializedReference_TisTSet_tD68F8C353C8369430C2659B5328E5C65F3F4EF15_m488F63C212ACF1D8466BD2E746469FA582B1C944;
+extern const uint32_t g_rgctx_TSet_tD68F8C353C8369430C2659B5328E5C65F3F4EF15;
+extern const uint32_t g_rgctx_ICollection_1_tB577346CD4F0A3EA92EA6ECE6D950D0F885C45E8;
+extern const uint32_t g_rgctx_ICollection_1_Clear_m4C720F069D8716BD6AC2B63D34073AB0B2419335;
+extern const uint32_t g_rgctx_BinaryPropertyReader_ReadValue_TisTValue_tA7263E1D8CA766E874B1FF1150C86449BE19A250_mE05E2FC7AD8B222CB1748B05E44905263336C4AE;
+extern const uint32_t g_rgctx_ISet_1_t35C337F4CFACC2D222E45382C27DCB219EFBB0FF;
+extern const uint32_t g_rgctx_ISet_1_Add_mB52E18B7B6C3D75DEECDEA5B8B2E982D718F9299;
+extern const uint32_t g_rgctx_SerializedReferences_AddDeserializedReference_TisTDictionary_tDBCEEF46CA7AA4714C9F772F9E5B657FD3E6B272_m3AD86A63B4677DFF723DAC061EA4FB3AC9860CB7;
+extern const uint32_t g_rgctx_TDictionary_tDBCEEF46CA7AA4714C9F772F9E5B657FD3E6B272;
+extern const uint32_t g_rgctx_ICollection_1_t734B81FDF541A66D03C15A9FEBA6638CD5054161;
+extern const uint32_t g_rgctx_ICollection_1_Clear_m86655BFFD89FD23A1DA9EC000B32F111E5888678;
+extern const uint32_t g_rgctx_BinaryPropertyReader_ReadValue_TisTKey_t3C2F20B055888975D86A185A437554BB58057939_m05CA266CDC5CCD686292ECAA828B310DC571B3AF;
+extern const uint32_t g_rgctx_BinaryPropertyReader_ReadValue_TisTValue_t599E8159351EA81F223A0FE78CC2BA296F6ED768_mCBC24E35E8D068039EC88B7DE7C2003E9A382CEC;
+extern const uint32_t g_rgctx_IDictionary_2_tD314B17A6F1502C3DBECD83F83D823C2DD6AA54E;
+extern const uint32_t g_rgctx_IDictionary_2_Add_m61B49956DCA124031F537CDBA7945288F6F032ED;
+extern const uint32_t g_rgctx_Property_2_GetValue_m35622EFD6772CCF778C0C2932C855FC368D41520;
+extern const uint32_t g_rgctx_BinaryPropertyReader_ReadValue_TisTValue_t62763A15AE7960EDE360602796D6872EB52C718D_m9FCA9639549BD2F08848DCD75C03312344300635;
+extern const uint32_t g_rgctx_Property_2_get_IsReadOnly_mCF8FC4C25D417DF3221D5F7CEA65D0B080B596B1;
+extern const uint32_t g_rgctx_Property_2_SetValue_m970BB1D76BCEBA65D47366192E19CF1E98BBCE65;
+extern const uint32_t g_rgctx_PropertyChecks_CheckReadOnlyPropertyForDeserialization_TisTContainer_t001C40B48B19BCDC55B11625A35143D665083F86_TisTValue_t62763A15AE7960EDE360602796D6872EB52C718D_m7D44F0E7E7FA826F608F7D94CC03685E1D985FEF;
+extern const uint32_t g_rgctx_BinaryPropertyReader_ReadValue_TisTValue_t7A0F51DEFF6EF8886351BF41FC138A8AEE940270_mE9C14C3AA9FC9D46F1F216841C5ABD55016F5DC9;
+extern const uint32_t g_rgctx_BinaryAdapterCollection_TryDeserialize_TisTValue_tCE82E257E8711C6552969B7707218EC6C925B3CF_m8698E2CBA58A6DABAB399DA435BE0AE785A7AFDA;
+extern const uint32_t g_rgctx_RuntimeTypeInfoCache_1_t2148E3E242B08EC990DE5F2D483CDE6C0F6065EB;
+extern const uint32_t g_rgctx_TValue_tCE82E257E8711C6552969B7707218EC6C925B3CF;
+extern const uint32_t g_rgctx_BinarySerialization_ReadPrimitiveUnsafe_TisTValue_tCE82E257E8711C6552969B7707218EC6C925B3CF_mDC4BF0566DBB09F6D58FD9C72C893BB03C469E2B;
+extern const uint32_t g_rgctx_TValue_tCE82E257E8711C6552969B7707218EC6C925B3CF;
+extern const uint32_t g_rgctx_BinarySerialization_ReadPrimitiveBoxed_TisTValue_tCE82E257E8711C6552969B7707218EC6C925B3CF_mF9D9B68B13B5C8AF0C0657302535F88EDB111D59;
+extern const uint32_t g_rgctx_DefaultTypeConstruction_Construct_TisTValue_tCE82E257E8711C6552969B7707218EC6C925B3CF_m1325DE6CE92F812A9A2F7B8005588EC5A4B068D0;
+extern const uint32_t g_rgctx_PropertyContainer_Visit_TisTValue_tCE82E257E8711C6552969B7707218EC6C925B3CF_m6CC11855D4DDE62813472B21BAC34C89A8B6D2BC;
+extern const uint32_t g_rgctx_IPropertyList_1_tA907D33B02593E0AA6D44D55A5FD99D0F9A8DC0B;
+extern const uint32_t g_rgctx_List_1_GetEnumerator_mF64C740F961036615492137CE58FD99583ECA4AB;
+extern const uint32_t g_rgctx_Enumerator_get_Current_mC109433BD37DC294308AEF93015E8B6983876030;
+extern const uint32_t g_rgctx_IPropertyAccept_1_t5A07DA6488B3D05C392E00B4F09D2A037DADAC30;
+extern const uint32_t g_rgctx_Enumerator_MoveNext_m4F966643449E85FFEBB3B2E01AFD8178E6D1D17F;
+extern const uint32_t g_rgctx_Enumerator_t2096D3D96C03C7D3D277C5929E1EA0BBE7D1CCEC;
+extern const uint32_t g_rgctx_IPropertyEnumerable_1_tBCDCD3D7B9B5CA6067542D4ACB2FC844042D6048;
+extern const uint32_t g_rgctx_IEnumerable_1_tC064E999A71A9E2B509653616A75D0EB6C3919DF;
+extern const uint32_t g_rgctx_IEnumerator_1_tED3FB7D50CF5783EFB9A00B9F685920921663197;
+extern const uint32_t g_rgctx_TList_t07C156DD243222E3652D7A00AE75BE9B6274EA00;
+extern const uint32_t g_rgctx_ICollection_1_tD66F09310E987EB240309D7F2ED858DD69079AEE;
+extern const uint32_t g_rgctx_ICollection_1_get_Count_m4EE6ED9B0A63DE652A62A1148AA01325F74594B9;
+extern const uint32_t g_rgctx_IList_1_t89F0BA67BC2010A0A956403ABA8EA0F175181081;
+extern const uint32_t g_rgctx_IList_1_get_Item_m548B2A467C0B74FA222969861EBF54227D4A91C0;
+extern const uint32_t g_rgctx_BinaryPropertyWriter_WriteValue_TisTElement_t47F28C6A31A6B220B54B712539B4B5C202AE001D_m12532A526A185723039FB57F8DEC56C27FEC2D5C;
+extern const uint32_t g_rgctx_TSet_tB48F0BCC32CF6EE4DFAAA6D634E69BEC5E9F925C;
+extern const uint32_t g_rgctx_ICollection_1_t9FBA9C15B14ADB00673EBF1F42E894CC8254C811;
+extern const uint32_t g_rgctx_ICollection_1_get_Count_m0FFF4DAB1A9F5C5B424EBCEE687926271F0B78FF;
+extern const uint32_t g_rgctx_IEnumerable_1_t1D8D7A0D5A71D5F6194929908D80835A803397AA;
+extern const uint32_t g_rgctx_IEnumerable_1_GetEnumerator_m622822DC292C27A4D2D5EDD870A3F66E33F04910;
+extern const uint32_t g_rgctx_IEnumerator_1_tB2ADAFE9A66926B1C220FBD30C88FB83BD369805;
+extern const uint32_t g_rgctx_BinaryPropertyWriter_WriteValue_TisTValue_tB08D3CD5A8FF5BC2242D6424CEBEA4D8C3153E3F_m1009507570782017FAEBC2F9F08DA8DC6823585C;
+extern const uint32_t g_rgctx_TDictionary_t93E66D5AC70C01E333D23BEB40DD29F02B726D2C;
+extern const uint32_t g_rgctx_ICollection_1_tEADF2EAB876ADA426BED1F476FD6CCD73E8B5C55;
+extern const uint32_t g_rgctx_ICollection_1_get_Count_m4085D3473D7CA14CCCEE0BB84FD823DADBC14807;
+extern const uint32_t g_rgctx_IEnumerable_1_t6542239165D736BF9F968665D023B3D2923A2F74;
+extern const uint32_t g_rgctx_IEnumerable_1_GetEnumerator_m2E623F5FA52EC33E19D2E6D110A48BFE1365EC96;
+extern const uint32_t g_rgctx_IEnumerator_1_t4CF10CD10B3AA30333B64B64B53E84ABF5644437;
+extern const uint32_t g_rgctx_KeyValuePair_2_get_Key_mABB1ADB2B850A3D67C91A31A6C67ABD05DB6008B;
+extern const uint32_t g_rgctx_BinaryPropertyWriter_WriteValue_TisTKey_t575625FF8A6410EB969848780BD81721B65CFE11_mBEA6EF9885725C8EE973781DC75F93FA7E3CAF7F;
+extern const uint32_t g_rgctx_KeyValuePair_2_get_Value_mBBA6A8E51E38D8FEE57511878751DBCFB226C54C;
+extern const uint32_t g_rgctx_BinaryPropertyWriter_WriteValue_TisTValue_t99BDCD97666E8621D5AB084026E9E303762C7724_m6D66249BF6024DC65BCA32BD3C88ABA3AA479335;
+extern const uint32_t g_rgctx_Property_2_GetValue_m24193334203AA32E0AD05CB87FB97EFCD898EC5E;
+extern const uint32_t g_rgctx_BinaryPropertyWriter_WriteValue_TisTValue_t82957F9D0726CC86B75AA04F4FA77E0EA11C115E_mA63E1A890624E222F174102B32FE4E861AB60DA8;
+extern const uint32_t g_rgctx_BinaryAdapterCollection_TrySerialize_TisTValue_t0C8CFB2903ADCAFFF54515CC37C6F8AF3BB32DCB_m6836BB59EEB3E0B1E4E4AE74F72E02D9A8ED54BD;
+extern const uint32_t g_rgctx_RuntimeTypeInfoCache_1_t28A7416A2D620FA86D09A2B37A60D0C553FD3F69;
+extern const uint32_t g_rgctx_TValue_t0C8CFB2903ADCAFFF54515CC37C6F8AF3BB32DCB;
+extern const uint32_t g_rgctx_BinarySerialization_WritePrimitiveUnsafe_TisTValue_t0C8CFB2903ADCAFFF54515CC37C6F8AF3BB32DCB_m222F4C0D6212B775CD8C2698C6B84F00F43263EA;
+extern const uint32_t g_rgctx_TValue_t0C8CFB2903ADCAFFF54515CC37C6F8AF3BB32DCB;
+extern const uint32_t g_rgctx_PropertyContainer_Visit_TisTValue_t0C8CFB2903ADCAFFF54515CC37C6F8AF3BB32DCB_mBDE0F4F708743AED5F03A69203573470609E61AC;
+extern const uint32_t g_rgctx_BinaryAdapterCollection_TrySerialize_TisTValue_t44AD353B10EA252AB06AC25E1F20EA12D6CD5990_mEC13A25222583B473142AFDD9B4CD3F613932E42;
+extern const uint32_t g_rgctx_IBinaryAdapter_1_t537DC91444E103A36B9E626B15C82F9B102DB87E;
+extern const uint32_t g_rgctx_IBinaryAdapter_1_t51BA3EBF95DF124B6B8798A90AADD83E0761A20E;
+extern const uint32_t g_rgctx_BinaryAdapterCollection_TryDeserialize_TisTValue_tEB5976944E6A23EC3E6231075FF043020FB5FA2A_m6BD735CC9B838D624F2A35C30A739B38F065DCA8;
+extern const uint32_t g_rgctx_IBinaryAdapter_1_tB303B29DBC05C8270445391C4AD2665B094C866B;
+extern const uint32_t g_rgctx_IBinaryAdapter_1_t8B05A63F0418F401B6CDD5867BAC51A204D22807;
+extern const uint32_t g_rgctx_TValue_tCC267D0735F0152AFCDA89BDFAE2972EDD709D7F;
+static const Il2CppRGCTXDefinition s_rgctxValues[143] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_RuntimeTypeInfoCache_1_t04149F5CD6C838AA812433079E325743124F9B77 },
+	{ (Il2CppRGCTXDataType)1, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_t42154C4DC2889B73DB0FC1FA7FD07EE61545E913 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_DefaultTypeConstruction_ConstructFromSerializedType_TisTValue_t42154C4DC2889B73DB0FC1FA7FD07EE61545E913_m4E8BAE909E3DAD5581C1E30110CBDC618B30A8A3 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_t42154C4DC2889B73DB0FC1FA7FD07EE61545E913 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_DefaultTypeConstruction_ConstructFromDeclaredType_TisTValue_t42154C4DC2889B73DB0FC1FA7FD07EE61545E913_m56DE41A81A007BDA523BA1D5DC9B73A319ABB02B },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_t87236021E0154C8B56FB917EA6A2F75CB491D601 },
+	{ (Il2CppRGCTXDataType)1, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_tE1DAA95855548175628663C45DBA03C6FCB98ADF },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_tE1DAA95855548175628663C45DBA03C6FCB98ADF },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Activator_CreateInstance_TisTValue_tE1DAA95855548175628663C45DBA03C6FCB98ADF_m81A1D546DC46EA3A5827D5595567FB35403AF225 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Property_2_get_IsReadOnly_m435D4163605FCD899E72C2013BFF0DE158015A87 },
+	{ (Il2CppRGCTXDataType)1, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_tCFEDA1B008381986F8164EC5DB6ADEBC93730113 },
+	{ (Il2CppRGCTXDataType)1, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TContainer_tB0BAF36F38D6DD634CCAE8BEFFDE13FF81AE73F8 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Property_2_get_Name_m514B0EA491958D5B6F37C55A70261B50A6FFAAEB },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Property_2_GetValue_m61B32D1CE7A6CD47E748B9BDDE99D9AB12CA57C8 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_tCFEDA1B008381986F8164EC5DB6ADEBC93730113 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_RuntimeTypeInfoCache_1_t024DB385E32A3D4B652259AFFA6ACFA41C8A0C7F },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_T_t8ACC46881AC543FA00C94368DA52C29AE8D030AC },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_mADE79B616E43E5F89CB23D4D0001BDA5079D0A4F },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisInt16_tD0F031114106263BB459DA1F099FF9F42691295A_m257D591518302525FF27940203B56123E61F1D42 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_mDAFC76E68E3B27B6CE0D03E7449E074789447AC9 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisInt64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_m9D0E75735AE24E170942495CF199C41B59057593 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisByte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_m47D7A18ACFBC5C4682E67295DF440BCE15A680D4 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisUInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_m0D99ED371C91774BE6A34DB213E55A38A104002A },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisUInt32_tE60352A06233E4E69DD198BCC67142159F686B15_m78C511488F3FB8D6CF1E7893DA5AEAF1B904A325 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisUInt64_tEC57511B3E3CA2DBA1BEBD434C6983E31C943281_m5D3F79A3A9E68D5D0C08276C71BE5C985392CBE7 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_mA13F0429CD2A600E1C49AD458C3E599331B62112 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisDouble_t42821932CB52DE2057E685D0E1AF3DE5033D2181_m2957F3C0F5D79123439E7228F1A0685BC125A297 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_mC42FACEC3F137E718CC20DFD6D3AC2F3C783F0FF },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisTValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB_TisChar_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_m3C74BE884611C28FE4E021CC6E309B0940D5837E },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_t1DD7C3CAEA1B8A44B0607AA3B2CCF7A8D95448CB },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisSByte_t928712DD662DC29BA4FAAE8CE2230AFB23447F0B_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_mC88A417C286F7DB35D4A2930887C6D9F35A1CC26 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisInt16_tD0F031114106263BB459DA1F099FF9F42691295A_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_m814EC9F1D06EB3A127024DCA66B0A22687207137 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_m6AB96C83BD5AE520E69F85184AFDA2B9AB4E8208 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisInt64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_mAAE54C975BC99E17215316C10278E818BB584011 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisByte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_m42B697C5E47D7CD4CE91547F5FE2771AB6B08C25 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisUInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_m515D4A4F08CCC209EFE504596013F58FA9CB500C },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisUInt32_tE60352A06233E4E69DD198BCC67142159F686B15_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_mCC4DEA837150F8F3606449B9E52E6AB6FB6686E0 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisUInt64_tEC57511B3E3CA2DBA1BEBD434C6983E31C943281_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_mB37ED35ED7D59B6125B8E48F9787F2C0B9B89E0A },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_m77FF7562C727CAD5C58151C5A9C629933616F851 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisDouble_t42821932CB52DE2057E685D0E1AF3DE5033D2181_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_m7AB50FD29A77AE08FE0FB29E79CCDE053B0435E0 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_mFC06E2DFD7F7798D96F1B3A6E8C254F2AABB5F6C },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_UnsafeUtility_As_TisChar_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_TisTValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503_m34A4AECE61C401D422E1706B3E6271161D932BA1 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_t3DE0F092AF60A68FAF19ADF9D2582A1B33A57503 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_tB941FF21D13BF73635F94A0064348158F4A08137 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_PropertyWrapper_1__ctor_mC4A1056BA3F0243C2CB0AAE16D16DA005F1E296B },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_PropertyContainer_Visit_TisPropertyWrapper_1_tBE8F727074BF5A9720C7AD8B7B06DBAD6F0C17DB_m2A52F26C4970D3C44B0EBC6C6E80C9F658974031 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_PropertyWrapper_1__ctor_m5A810CCA1ED8C8EFA9F4B227DA818DA406D5DD1F },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_PropertyContainer_Visit_TisPropertyWrapper_1_t3F373259F4BB172DBE9C266D5EE4DCF5D776C251_m6B3F747B6395715DBB4A079EF018FEE670AFD2B5 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_SerializedReferences_AddDeserializedReference_TisTContainer_tBF8BB107813A7A865DDED9F5C7A741F63EEAE66B_m47818D832A58A1809620E21726EFB3E8AB9E2317 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IPropertyList_1_tA3E6CD4B78C79CE0B16952259A1D857B547FF215 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_List_1_GetEnumerator_m115EDD3291599AE5234DC423E8C287AE6D55C296 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Enumerator_get_Current_m4E6A050D7844127D7B09BD671D6150517C9204B1 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IPropertyAccept_1_t2BD6B36DEC2A83E07DD630C18C52230F76421300 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Enumerator_MoveNext_mAFF274F9EF5B29855310860F5624CAC46CE5E76B },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Enumerator_tDAB0A82514D5C6170F38E0C26E568AD1EBD113EC },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IPropertyEnumerable_1_t2A88605353699CCDADEA98AE3D1E25497C74ACBF },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IEnumerable_1_t15D8100C1CE06A7FDF02D4B3BF7EF4558AE62566 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IEnumerator_1_tB2D8532A154D49204A5D99A2D2131E188646273C },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_SerializedReferences_AddDeserializedReference_TisTList_t1FF5E12D5BB591E77F32DA99392E3390E6DAD028_m0B79259C4A11B17A9EEFBDD9DD31F96EFFAF4C92 },
+	{ (Il2CppRGCTXDataType)1, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TList_t1FF5E12D5BB591E77F32DA99392E3390E6DAD028 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryPropertyReader_ReadValue_TisTElement_t02D566685C3D2F06BECE032E755BAD84257BF23F_mE35537564761E296CE83D633EBF65D0AAC73D9E9 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TList_t1FF5E12D5BB591E77F32DA99392E3390E6DAD028 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IList_1_tA505FF530A8B80AC67C4468132CDA995D913DE5C },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IList_1_set_Item_mFE10B864F812FC5D0F2B66AB06721DC68E04D413 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ICollection_1_t0BE2FE4BB45BB3B6AA97AACA04C1A159DB06B204 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ICollection_1_Clear_mACE4F104D7AA237B3B61FBB7E94597CFAE6A1A67 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ICollection_1_Add_m8FFCF6005CF0695A9AEE2A2BB56FDB03010EE2B7 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_SerializedReferences_AddDeserializedReference_TisTSet_tD68F8C353C8369430C2659B5328E5C65F3F4EF15_m488F63C212ACF1D8466BD2E746469FA582B1C944 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TSet_tD68F8C353C8369430C2659B5328E5C65F3F4EF15 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ICollection_1_tB577346CD4F0A3EA92EA6ECE6D950D0F885C45E8 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ICollection_1_Clear_m4C720F069D8716BD6AC2B63D34073AB0B2419335 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryPropertyReader_ReadValue_TisTValue_tA7263E1D8CA766E874B1FF1150C86449BE19A250_mE05E2FC7AD8B222CB1748B05E44905263336C4AE },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ISet_1_t35C337F4CFACC2D222E45382C27DCB219EFBB0FF },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ISet_1_Add_mB52E18B7B6C3D75DEECDEA5B8B2E982D718F9299 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_SerializedReferences_AddDeserializedReference_TisTDictionary_tDBCEEF46CA7AA4714C9F772F9E5B657FD3E6B272_m3AD86A63B4677DFF723DAC061EA4FB3AC9860CB7 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TDictionary_tDBCEEF46CA7AA4714C9F772F9E5B657FD3E6B272 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ICollection_1_t734B81FDF541A66D03C15A9FEBA6638CD5054161 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ICollection_1_Clear_m86655BFFD89FD23A1DA9EC000B32F111E5888678 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryPropertyReader_ReadValue_TisTKey_t3C2F20B055888975D86A185A437554BB58057939_m05CA266CDC5CCD686292ECAA828B310DC571B3AF },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryPropertyReader_ReadValue_TisTValue_t599E8159351EA81F223A0FE78CC2BA296F6ED768_mCBC24E35E8D068039EC88B7DE7C2003E9A382CEC },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IDictionary_2_tD314B17A6F1502C3DBECD83F83D823C2DD6AA54E },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IDictionary_2_Add_m61B49956DCA124031F537CDBA7945288F6F032ED },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Property_2_GetValue_m35622EFD6772CCF778C0C2932C855FC368D41520 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryPropertyReader_ReadValue_TisTValue_t62763A15AE7960EDE360602796D6872EB52C718D_m9FCA9639549BD2F08848DCD75C03312344300635 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Property_2_get_IsReadOnly_mCF8FC4C25D417DF3221D5F7CEA65D0B080B596B1 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Property_2_SetValue_m970BB1D76BCEBA65D47366192E19CF1E98BBCE65 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_PropertyChecks_CheckReadOnlyPropertyForDeserialization_TisTContainer_t001C40B48B19BCDC55B11625A35143D665083F86_TisTValue_t62763A15AE7960EDE360602796D6872EB52C718D_m7D44F0E7E7FA826F608F7D94CC03685E1D985FEF },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryPropertyReader_ReadValue_TisTValue_t7A0F51DEFF6EF8886351BF41FC138A8AEE940270_mE9C14C3AA9FC9D46F1F216841C5ABD55016F5DC9 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryAdapterCollection_TryDeserialize_TisTValue_tCE82E257E8711C6552969B7707218EC6C925B3CF_m8698E2CBA58A6DABAB399DA435BE0AE785A7AFDA },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_RuntimeTypeInfoCache_1_t2148E3E242B08EC990DE5F2D483CDE6C0F6065EB },
+	{ (Il2CppRGCTXDataType)1, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_tCE82E257E8711C6552969B7707218EC6C925B3CF },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinarySerialization_ReadPrimitiveUnsafe_TisTValue_tCE82E257E8711C6552969B7707218EC6C925B3CF_mDC4BF0566DBB09F6D58FD9C72C893BB03C469E2B },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_tCE82E257E8711C6552969B7707218EC6C925B3CF },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinarySerialization_ReadPrimitiveBoxed_TisTValue_tCE82E257E8711C6552969B7707218EC6C925B3CF_mF9D9B68B13B5C8AF0C0657302535F88EDB111D59 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_DefaultTypeConstruction_Construct_TisTValue_tCE82E257E8711C6552969B7707218EC6C925B3CF_m1325DE6CE92F812A9A2F7B8005588EC5A4B068D0 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_PropertyContainer_Visit_TisTValue_tCE82E257E8711C6552969B7707218EC6C925B3CF_m6CC11855D4DDE62813472B21BAC34C89A8B6D2BC },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IPropertyList_1_tA907D33B02593E0AA6D44D55A5FD99D0F9A8DC0B },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_List_1_GetEnumerator_mF64C740F961036615492137CE58FD99583ECA4AB },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Enumerator_get_Current_mC109433BD37DC294308AEF93015E8B6983876030 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IPropertyAccept_1_t5A07DA6488B3D05C392E00B4F09D2A037DADAC30 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Enumerator_MoveNext_m4F966643449E85FFEBB3B2E01AFD8178E6D1D17F },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Enumerator_t2096D3D96C03C7D3D277C5929E1EA0BBE7D1CCEC },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IPropertyEnumerable_1_tBCDCD3D7B9B5CA6067542D4ACB2FC844042D6048 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IEnumerable_1_tC064E999A71A9E2B509653616A75D0EB6C3919DF },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IEnumerator_1_tED3FB7D50CF5783EFB9A00B9F685920921663197 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TList_t07C156DD243222E3652D7A00AE75BE9B6274EA00 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ICollection_1_tD66F09310E987EB240309D7F2ED858DD69079AEE },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ICollection_1_get_Count_m4EE6ED9B0A63DE652A62A1148AA01325F74594B9 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IList_1_t89F0BA67BC2010A0A956403ABA8EA0F175181081 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IList_1_get_Item_m548B2A467C0B74FA222969861EBF54227D4A91C0 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryPropertyWriter_WriteValue_TisTElement_t47F28C6A31A6B220B54B712539B4B5C202AE001D_m12532A526A185723039FB57F8DEC56C27FEC2D5C },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TSet_tB48F0BCC32CF6EE4DFAAA6D634E69BEC5E9F925C },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ICollection_1_t9FBA9C15B14ADB00673EBF1F42E894CC8254C811 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ICollection_1_get_Count_m0FFF4DAB1A9F5C5B424EBCEE687926271F0B78FF },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IEnumerable_1_t1D8D7A0D5A71D5F6194929908D80835A803397AA },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IEnumerable_1_GetEnumerator_m622822DC292C27A4D2D5EDD870A3F66E33F04910 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IEnumerator_1_tB2ADAFE9A66926B1C220FBD30C88FB83BD369805 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryPropertyWriter_WriteValue_TisTValue_tB08D3CD5A8FF5BC2242D6424CEBEA4D8C3153E3F_m1009507570782017FAEBC2F9F08DA8DC6823585C },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TDictionary_t93E66D5AC70C01E333D23BEB40DD29F02B726D2C },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ICollection_1_tEADF2EAB876ADA426BED1F476FD6CCD73E8B5C55 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_ICollection_1_get_Count_m4085D3473D7CA14CCCEE0BB84FD823DADBC14807 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IEnumerable_1_t6542239165D736BF9F968665D023B3D2923A2F74 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IEnumerable_1_GetEnumerator_m2E623F5FA52EC33E19D2E6D110A48BFE1365EC96 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IEnumerator_1_t4CF10CD10B3AA30333B64B64B53E84ABF5644437 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_KeyValuePair_2_get_Key_mABB1ADB2B850A3D67C91A31A6C67ABD05DB6008B },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryPropertyWriter_WriteValue_TisTKey_t575625FF8A6410EB969848780BD81721B65CFE11_mBEA6EF9885725C8EE973781DC75F93FA7E3CAF7F },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_KeyValuePair_2_get_Value_mBBA6A8E51E38D8FEE57511878751DBCFB226C54C },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryPropertyWriter_WriteValue_TisTValue_t99BDCD97666E8621D5AB084026E9E303762C7724_m6D66249BF6024DC65BCA32BD3C88ABA3AA479335 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_Property_2_GetValue_m24193334203AA32E0AD05CB87FB97EFCD898EC5E },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryPropertyWriter_WriteValue_TisTValue_t82957F9D0726CC86B75AA04F4FA77E0EA11C115E_mA63E1A890624E222F174102B32FE4E861AB60DA8 },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryAdapterCollection_TrySerialize_TisTValue_t0C8CFB2903ADCAFFF54515CC37C6F8AF3BB32DCB_m6836BB59EEB3E0B1E4E4AE74F72E02D9A8ED54BD },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_RuntimeTypeInfoCache_1_t28A7416A2D620FA86D09A2B37A60D0C553FD3F69 },
+	{ (Il2CppRGCTXDataType)1, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_t0C8CFB2903ADCAFFF54515CC37C6F8AF3BB32DCB },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinarySerialization_WritePrimitiveUnsafe_TisTValue_t0C8CFB2903ADCAFFF54515CC37C6F8AF3BB32DCB_m222F4C0D6212B775CD8C2698C6B84F00F43263EA },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_t0C8CFB2903ADCAFFF54515CC37C6F8AF3BB32DCB },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_PropertyContainer_Visit_TisTValue_t0C8CFB2903ADCAFFF54515CC37C6F8AF3BB32DCB_mBDE0F4F708743AED5F03A69203573470609E61AC },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryAdapterCollection_TrySerialize_TisTValue_t44AD353B10EA252AB06AC25E1F20EA12D6CD5990_mEC13A25222583B473142AFDD9B4CD3F613932E42 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IBinaryAdapter_1_t537DC91444E103A36B9E626B15C82F9B102DB87E },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IBinaryAdapter_1_t51BA3EBF95DF124B6B8798A90AADD83E0761A20E },
+	{ (Il2CppRGCTXDataType)3, (const Il2CppRGCTXDefinitionData *)&g_rgctx_BinaryAdapterCollection_TryDeserialize_TisTValue_tEB5976944E6A23EC3E6231075FF043020FB5FA2A_m6BD735CC9B838D624F2A35C30A739B38F065DCA8 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IBinaryAdapter_1_tB303B29DBC05C8270445391C4AD2665B094C866B },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_IBinaryAdapter_1_t8B05A63F0418F401B6CDD5867BAC51A204D22807 },
+	{ (Il2CppRGCTXDataType)2, (const Il2CppRGCTXDefinitionData *)&g_rgctx_TValue_tCC267D0735F0152AFCDA89BDFAE2972EDD709D7F },
+};
+extern const CustomAttributesCacheGenerator g_Unity_Serialization_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Serialization_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_Serialization_CodeGenModule = 
+{
+	"Unity.Serialization.dll",
+	137,
+	s_methodPointers,
+	11,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	27,
+	s_rgctxIndices,
+	143,
+	s_rgctxValues,
+	NULL,
+	g_Unity_Serialization_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

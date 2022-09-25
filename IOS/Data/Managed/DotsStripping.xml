@@ -1,0 +1,94 @@
+<linker>
+  <assembly fullname="Unity.Transforms.Hybrid">
+    <type fullname="CompanionGameObjectUpdateTransformSystem" preserve="all"/>
+    <type fullname="TransformConversion" preserve="all"/>
+    <type fullname="Unity.Transforms.CopyInitialTransformFromGameObjectSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.CopyTransformFromGameObjectSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.RemoveTransformCopyTag" preserve="all"/>
+    <type fullname="Unity.Transforms.CopyTransformToGameObjectSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.TransformIncrementalConversionSystem" preserve="all"/>
+  </assembly>
+  <assembly fullname="Unity.Scenes">
+    <type fullname="Unity.Entities.Streaming.OptimizationGroup" preserve="all"/>
+    <type fullname="Unity.Scenes.GameObjectSceneSystem" preserve="all"/>
+    <type fullname="Unity.Scenes.LiveLinkPlayerAssetRefreshSystem" preserve="all"/>
+    <type fullname="Unity.Scenes.LiveLinkPlayerSystem" preserve="all"/>
+    <type fullname="Unity.Scenes.LiveLinkRuntimeSystemGroup" preserve="all"/>
+    <type fullname="Unity.Scenes.LiveLinkResolveSceneReferenceSystem" preserve="all"/>
+    <type fullname="Unity.Scenes.ResolveSceneReferenceSystem" preserve="all"/>
+    <type fullname="Unity.Scenes.ProcessAfterLoadGroup" preserve="all"/>
+    <type fullname="Unity.Scenes.SceneSectionStreamingSystem" preserve="all"/>
+    <type fullname="Unity.Scenes.SceneSystem" preserve="all"/>
+    <type fullname="Unity.Scenes.SceneSystemGroup" preserve="all"/>
+  </assembly>
+  <assembly fullname="Unity.Transforms">
+    <type fullname="Unity.Transforms.CompositeRotationSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.CompositeScaleSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.TransformSystemGroup" preserve="all"/>
+    <type fullname="Unity.Transforms.EndFrameParentSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.EndFrameCompositeScaleSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.EndFrameRotationEulerSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.EndFramePostRotationEulerSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.EndFrameCompositeRotationSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.EndFrameTRSToLocalToWorldSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.EndFrameParentScaleInverseSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.EndFrameTRSToLocalToParentSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.EndFrameLocalToParentSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.EndFrameWorldToLocalSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.LocalToParentSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.ParentScaleInverseSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.ParentSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.PostRotationEulerSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.RotationEulerSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.TRSToLocalToParentSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.TRSToLocalToWorldSystem" preserve="all"/>
+    <type fullname="Unity.Transforms.WorldToLocalSystem" preserve="all"/>
+  </assembly>
+  <assembly fullname="Unity.Scenes.Editor">
+    <type fullname="Unity.Scenes.Editor.EditorSubSceneLiveLinkSystem" preserve="all"/>
+    <type fullname="Unity.Scenes.Editor.LiveLinkEditorSystemGroup" preserve="all"/>
+    <type fullname="Unity.Scenes.Editor.SubSceneConversionSystem" preserve="all"/>
+  </assembly>
+  <assembly fullname="Unity.Entities.Editor">
+    <type fullname="EditorCompanionGameObjectUpdateSystem" preserve="all"/>
+  </assembly>
+  <assembly fullname="Unity.Entities">
+    <type fullname="Unity.Entities.ComponentSystem" preserve="all"/>
+    <type fullname="Unity.Entities.ComponentSystemGroup" preserve="all"/>
+    <type fullname="Unity.Entities.BeginInitializationEntityCommandBufferSystem" preserve="all"/>
+    <type fullname="Unity.Entities.EndInitializationEntityCommandBufferSystem" preserve="all"/>
+    <type fullname="Unity.Entities.InitializationSystemGroup" preserve="all"/>
+    <type fullname="Unity.Entities.BeginFixedStepSimulationEntityCommandBufferSystem" preserve="all"/>
+    <type fullname="Unity.Entities.EndFixedStepSimulationEntityCommandBufferSystem" preserve="all"/>
+    <type fullname="Unity.Entities.FixedStepSimulationSystemGroup" preserve="all"/>
+    <type fullname="Unity.Entities.BeginSimulationEntityCommandBufferSystem" preserve="all"/>
+    <type fullname="Unity.Entities.EndSimulationEntityCommandBufferSystem" preserve="all"/>
+    <type fullname="Unity.Entities.LateSimulationSystemGroup" preserve="all"/>
+    <type fullname="Unity.Entities.SimulationSystemGroup" preserve="all"/>
+    <type fullname="Unity.Entities.BeginPresentationEntityCommandBufferSystem" preserve="all"/>
+    <type fullname="Unity.Entities.PresentationSystemGroup" preserve="all"/>
+    <type fullname="Unity.Entities.EntityPatcherBlobAssetSystem" preserve="all"/>
+    <type fullname="Unity.Entities.EntityCommandBufferSystem" preserve="all"/>
+    <type fullname="Unity.Entities.JobComponentSystem" preserve="all"/>
+    <type fullname="Unity.Entities.RetainBlobAssetSystem" preserve="all"/>
+    <type fullname="Unity.Entities.SystemBase" preserve="all"/>
+  </assembly>
+  <assembly fullname="Unity.Entities.Hybrid">
+    <type fullname="CompanionGameObjectUpdateSystem" preserve="all"/>
+    <type fullname="GameObjectDeclareReferencedObjectsGroup" preserve="all"/>
+    <type fullname="GameObjectBeforeConversionGroup" preserve="all"/>
+    <type fullname="GameObjectConversionGroup" preserve="all"/>
+    <type fullname="GameObjectAfterConversionGroup" preserve="all"/>
+    <type fullname="GameObjectExportGroup" preserve="all"/>
+    <type fullname="GameObjectConversionSystem" preserve="all"/>
+    <type fullname="Unity.Entities.ConvertToEntitySystem" preserve="all"/>
+    <type fullname="Unity.Entities.GameObjectEnableDisableIncrementalConversionSystem" preserve="all"/>
+    <type fullname="Unity.Entities.ConversionSetupGroup" preserve="all"/>
+    <type fullname="Unity.Entities.IncrementalChangesSystem" preserve="all"/>
+    <type fullname="Unity.Entities.SceneSectionIncrementalConversionSystem" preserve="all"/>
+    <type fullname="Unity.Entities.StaticOptimizeIncrementalConversionSystem" preserve="all"/>
+    <type fullname="Unity.Entities.UpdateWorldTimeSystem" preserve="all"/>
+    <type fullname="Unity.Entities.Conversion.ConvertGameObjectToEntitySystem" preserve="all"/>
+    <type fullname="Unity.Entities.Conversion.GameObjectConversionMappingSystem" preserve="all"/>
+  </assembly>
+</linker>

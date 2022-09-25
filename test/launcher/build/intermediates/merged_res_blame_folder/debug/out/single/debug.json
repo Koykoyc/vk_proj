@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\cgalan\\Horse\\test\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-ldpi_app_icon.png.flat",
+        "source": "C:\\Users\\cgalan\\Horse\\test\\launcher\\src\\main\\res\\mipmap-ldpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cgalan\\Horse\\test\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_app_icon.png.flat",
+        "source": "C:\\Users\\cgalan\\Horse\\test\\launcher\\src\\main\\res\\mipmap-xxxhdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cgalan\\Horse\\test\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_app_icon.png.flat",
+        "source": "C:\\Users\\cgalan\\Horse\\test\\launcher\\src\\main\\res\\mipmap-xxhdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cgalan\\Horse\\test\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_app_icon.png.flat",
+        "source": "C:\\Users\\cgalan\\Horse\\test\\launcher\\src\\main\\res\\mipmap-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cgalan\\Horse\\test\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\cgalan\\Horse\\test\\launcher\\src\\main\\res\\mipmap-xxxhdpi\\app_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\cgalan\\Horse\\test\\launcher\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_app_banner.png.flat",
+        "source": "C:\\Users\\cgalan\\Horse\\test\\launcher\\src\\main\\res\\drawable-xhdpi\\app_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\cgalan\\Horse\\test\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-ldpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\cgalan\\Horse\\test\\launcher\\src\\main\\res\\mipmap-ldpi\\app_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\cgalan\\Horse\\test\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\cgalan\\Horse\\test\\launcher\\src\\main\\res\\mipmap-hdpi\\app_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\cgalan\\Horse\\test\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\cgalan\\Horse\\test\\launcher\\src\\main\\res\\mipmap-xhdpi\\app_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\cgalan\\Horse\\test\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_app_icon.png.flat",
+        "source": "C:\\Users\\cgalan\\Horse\\test\\launcher\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cgalan\\Horse\\test\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\cgalan\\Horse\\test\\launcher\\src\\main\\res\\mipmap-mdpi\\app_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\cgalan\\Horse\\test\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_app_icon.png.flat",
+        "source": "C:\\Users\\cgalan\\Horse\\test\\launcher\\src\\main\\res\\mipmap-hdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\cgalan\\Horse\\test\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\cgalan\\Horse\\test\\launcher\\src\\main\\res\\mipmap-xxhdpi\\app_icon_round.png"
+    }
+]

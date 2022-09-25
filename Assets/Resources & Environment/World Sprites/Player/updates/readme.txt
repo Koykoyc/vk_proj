@@ -1,0 +1,1 @@
+fixed the numbers for end sprites and the numbers on red and green.
